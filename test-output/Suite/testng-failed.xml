@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <listeners>
+    <listener class-name="TestCases.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="Parametized Login(failed)" parallel="tests">
+    <classes>
+      <class name="TestCases.LogInParametizedDataProvider">
+        <methods>
+          <include name="initializebrowser"/>
+          <include name="testEnd"/>
+          <include name="LogInPageParametize"/>
+        </methods>
+      </class> <!-- TestCases.LogInParametizedDataProvider -->
+    </classes>
+  </test> <!-- Parametized Login(failed) -->
+  <test thread-count="5" name="Home Page(failed)" parallel="tests">
+    <classes>
+      <class name="TestCases.HomePage">
+        <methods>
+          <include name="testEnd"/>
+          <include name="basePageNavigation"/>
+          <include name="initializebrowser"/>
+        </methods>
+      </class> <!-- TestCases.HomePage -->
+    </classes>
+  </test> <!-- Home Page(failed) -->
+  <test thread-count="5" name="Login(failed)" parallel="tests">
+    <classes>
+      <class name="TestCases.LogIn">
+        <methods>
+          <include name="LogInPage"/>
+          <include name="initializebrowser"/>
+          <include name="testEnd"/>
+        </methods>
+      </class> <!-- TestCases.LogIn -->
+    </classes>
+  </test> <!-- Login(failed) -->
+</suite> <!-- Failed suite [Suite] -->

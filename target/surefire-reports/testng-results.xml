@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="13706" started-at="2021-08-10T14:50:50 GET" finished-at="2021-08-10T14:51:04 GET">
+    <groups>
+    </groups>
+    <test name="Login" duration-ms="10037" started-at="2021-08-10T14:50:50 GET" finished-at="2021-08-10T14:51:00 GET">
+      <class name="TestCases.LogIn">
+        <test-method status="PASS" signature="initializebrowser()[pri:0, instance:TestCases.LogIn@7a35b0f5]" name="initializebrowser" is-config="true" duration-ms="7685" started-at="2021-08-10T14:50:50 GET" finished-at="2021-08-10T14:50:58 GET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializebrowser -->
+        <test-method status="PASS" signature="LogInPage()[pri:0, instance:TestCases.LogIn@7a35b0f5]" name="LogInPage" duration-ms="1693" started-at="2021-08-10T14:50:58 GET" finished-at="2021-08-10T14:51:00 GET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogInPage -->
+        <test-method status="PASS" signature="testEnd()[pri:0, instance:TestCases.LogIn@7a35b0f5]" name="testEnd" is-config="true" duration-ms="652" started-at="2021-08-10T14:51:00 GET" finished-at="2021-08-10T14:51:00 GET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEnd -->
+      </class> <!-- TestCases.LogIn -->
+    </test> <!-- Login -->
+    <test name="Parametized Login" duration-ms="12436" started-at="2021-08-10T14:50:50 GET" finished-at="2021-08-10T14:51:03 GET">
+      <class name="TestCases.LogInParametizedDataProvider">
+        <test-method status="PASS" signature="initializebrowser()[pri:0, instance:TestCases.LogInParametizedDataProvider@bef2d72]" name="initializebrowser" is-config="true" duration-ms="2079" started-at="2021-08-10T14:50:50 GET" finished-at="2021-08-10T14:50:52 GET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializebrowser -->
+        <test-method status="PASS" signature="LogInPageParametize(java.lang.String,java.lang.String)[pri:0, instance:TestCases.LogInParametizedDataProvider@bef2d72]" name="LogInPageParametize" duration-ms="7609" started-at="2021-08-10T14:50:53 GET" data-provider="getData" finished-at="2021-08-10T14:51:00 GET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tako]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pass]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogInPageParametize -->
+        <test-method status="PASS" signature="LogInPageParametize(java.lang.String,java.lang.String)[pri:0, instance:TestCases.LogInParametizedDataProvider@bef2d72]" name="LogInPageParametize" duration-ms="2071" started-at="2021-08-10T14:51:00 GET" data-provider="getData" finished-at="2021-08-10T14:51:02 GET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tako1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pass]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogInPageParametize -->
+        <test-method status="PASS" signature="testEnd()[pri:0, instance:TestCases.LogInParametizedDataProvider@bef2d72]" name="testEnd" is-config="true" duration-ms="636" started-at="2021-08-10T14:51:02 GET" finished-at="2021-08-10T14:51:03 GET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEnd -->
+      </class> <!-- TestCases.LogInParametizedDataProvider -->
+    </test> <!-- Parametized Login -->
+    <test name="Home Page" duration-ms="13706" started-at="2021-08-10T14:50:50 GET" finished-at="2021-08-10T14:51:04 GET">
+      <class name="TestCases.HomePage">
+        <test-method status="PASS" signature="initializebrowser()[pri:0, instance:TestCases.HomePage@645aa696]" name="initializebrowser" is-config="true" duration-ms="9065" started-at="2021-08-10T14:50:50 GET" finished-at="2021-08-10T14:50:59 GET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializebrowser -->
+        <test-method status="PASS" signature="basePageNavigation()[pri:0, instance:TestCases.HomePage@645aa696]" name="basePageNavigation" duration-ms="4015" started-at="2021-08-10T14:50:59 GET" finished-at="2021-08-10T14:51:03 GET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="testEnd()[pri:0, instance:TestCases.HomePage@645aa696]" name="testEnd" is-config="true" duration-ms="623" started-at="2021-08-10T14:51:03 GET" finished-at="2021-08-10T14:51:04 GET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEnd -->
+      </class> <!-- TestCases.HomePage -->
+    </test> <!-- Home Page -->
+  </suite> <!-- Suite -->
+</testng-results>
